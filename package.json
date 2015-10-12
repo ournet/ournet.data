@@ -1,6 +1,6 @@
 {
   "name": "ournet.data",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "ournet data core",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "author": "Dumitru Cantea",
   "license": "ISC",
   "dependencies": {
-    "ournet.core": "^0.1.5",
+    "ournet.core": "^0.1.8",
     "request": "^2.55.0"
   }
 }
