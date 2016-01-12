@@ -1,10 +1,10 @@
 {
   "name": "ournet.data",
-  "version": "0.0.9",
-  "description": "ournet data core",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Ournet data common module",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "./node_modules/mocha/bin/mocha -t 10000"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,17 @@
   "keywords": [
     "ournet",
     "data",
-    "core"
+    "common"
   ],
   "author": "Dumitru Cantea",
   "license": "ISC",
   "dependencies": {
-    "ournet.core": "^0.1.10",
-    "request": "^2.55.0"
+    "bluebird": "^3.1.1",
+    "request": "^2.67.0",
+    "statefulco": "^0.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^1.2.0",
+    "mocha": "^2.3.4"
   }
 }
