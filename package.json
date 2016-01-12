@@ -1,6 +1,6 @@
 {
   "name": "ournet.data",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ournet data common module",
   "main": "./lib/index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.1.1",
+    "memory-cache": "^0.1.4",
     "request": "^2.67.0",
     "statefulco": "^0.1.0"
   },
