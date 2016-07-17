@@ -16,7 +16,7 @@ describe('widgets', function() {
 			lang: 'ro',
 			country: 'ro',
 			host: 'meteo.ournet.ro',
-			id: 683506
+			id: 683508
 		});
 	});
 });
