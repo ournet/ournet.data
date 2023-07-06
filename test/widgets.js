@@ -1,22 +1,22 @@
-'use strict';
+"use strict";
 
-// var assert = require('assert');
-var widgets = require('../lib/widgets');
+var widgets = require("../lib/widgets");
 
-describe('widgets', function() {
-	it('#getExchangeWidget', function() {
+describe("widgets", function () {
+	it("#getExchangeWidget", function () {
 		return widgets.getExchangeWidget({
-			lang: 'ro',
-			country: 'ro',
-			host: 'curs.ournet.ro'
+			lang: "ro",
+			country: "ro",
+			host: "curs.ournet.ro",
 		});
 	});
-	it('#getWeatherWidget', function() {
+
+	it("#getWeatherWidget", function () {
 		return widgets.getWeatherWidget({
-			lang: 'ro',
-			country: 'ro',
-			host: 'meteo.ournet.ro',
-			id: 683508
+			lang: "ro",
+			country: "ro",
+			host: "meteo.ournet.ro",
+			id: 683508,
 		});
 	});
 });
